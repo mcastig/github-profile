@@ -5,28 +5,25 @@ exploring their public repositories. Built against the
 [devChallenges.io GitHub Profile](https://devchallenges.io/) brief, with a
 cosmic, space-themed dark UI.
 
+[Demo](https://mcastig.github.io/github-profile/)
+
 <img width="1893" height="1058" alt="Captura de pantalla 2026-05-27 a la(s) 2 34 48 p m" src="https://github.com/user-attachments/assets/091ed8c0-0695-4086-bc8b-33a73982a6fb" />
 
 ## Features
 
 - 🔭 **Search any GitHub user** by username — submit the form to fetch their
   profile and four most recently updated public repositories.
-  
 - 👤 **Profile summary** with avatar, name, bio, follower / following counts,
   and location, formatted with locale-aware thousands separators.
-  
 - 📦 **Repository cards** showing license (when present), forks, stars, and a
   relative "updated N days ago" timestamp. Selecting a card opens the repo on
   GitHub in a new tab.
-  
 - 📱 **Fully responsive** — single-column on mobile (≤ 900 px wide), two-column
   on tablet / desktop. Hero, padding, and stat layout adapt at the breakpoints
   documented in the design (`412 px`, `1024 px`, `1350 px`).
-  
 - ♿ **Accessible** — labelled search input, ARIA live region for loading and
   errors, semantic landmarks (`header` / `main`), focus-visible
   outlines, and `prefers-reduced-motion` respect.
-  
 - 🛡️ **No secrets**: the app calls the public, unauthenticated
   `https://api.github.com` endpoints only. There is no `.env` file and nothing
   to leak.
