@@ -1,0 +1,35 @@
+.stat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.875rem 1.25rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  font-size: var(--fs-body);
+  line-height: 1;
+  white-space: nowrap;
+  transition:
+    border-color var(--dur-base) var(--ease-out),
+    transform var(--dur-base) var(--ease-out);
+}
+
+.stat-badge:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+.stat-badge__label {
+  color: var(--text-secondary);
+}
+
+.stat-badge__divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border-strong);
+}
+
+.stat-badge__value {
+  color: var(--text-primary);
+  font-weight: 500;
+}
