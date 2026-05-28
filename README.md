@@ -13,17 +13,22 @@ cosmic, space-themed dark UI.
 
 - 🔭 **Search any GitHub user** by username — submit the form to fetch their
   profile and four most recently updated public repositories.
+  
 - 👤 **Profile summary** with avatar, name, bio, follower / following counts,
   and location, formatted with locale-aware thousands separators.
+  
 - 📦 **Repository cards** showing license (when present), forks, stars, and a
   relative "updated N days ago" timestamp. Selecting a card opens the repo on
   GitHub in a new tab.
+  
 - 📱 **Fully responsive** — single-column on mobile (≤ 900 px wide), two-column
   on tablet / desktop. Hero, padding, and stat layout adapt at the breakpoints
   documented in the design (`412 px`, `1024 px`, `1350 px`).
+  
 - ♿ **Accessible** — labelled search input, ARIA live region for loading and
   errors, semantic landmarks (`header` / `main`), focus-visible
   outlines, and `prefers-reduced-motion` respect.
+  
 - 🛡️ **No secrets**: the app calls the public, unauthenticated
   `https://api.github.com` endpoints only. There is no `.env` file and nothing
   to leak.
